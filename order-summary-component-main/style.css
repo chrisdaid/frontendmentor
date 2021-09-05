@@ -72,6 +72,14 @@ body {
   align-items: center;
 }
 
+#cancel-btn {
+  text-decoration: underline;
+}
+
+#cancel-btn:hover {
+  text-decoration: none;
+}
+
 .left {
   display: flex;
 }
@@ -112,14 +120,22 @@ body {
   cursor: pointer;
 }
 
+#payment:hover {
+  background-color: hsl(245, 65%, 62%);
+}
+
 #cancel {
   background-color: var(--verypaleblue);
   font-weight: 900;
-  color: var(--darkblue);
+  color: var(--desatblue);
   padding: 15px;
   border-radius: 10px;
   border: none;
   width: 80%;
   outline: none;
   cursor: pointer;
+}
+
+#cancel:hover {
+  color: var(--darkblue);
 }
